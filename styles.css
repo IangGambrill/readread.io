@@ -26,3 +26,29 @@ body { margin:5%; background:#faebd0; text-align:justify}
     p.pfirst, p.noindent {text-indent: 0}
     span.dropcap         { float: left; margin: 0 0.1em 0 0; line-height: 1 }
     pre        { font-style: italic; font-size: 90%; margin-left: 10%;}
+    p{
+/* ---------------------things we can use for paragraph style----------------------------------------*/
+        margin: ;
+            margin-right: ;
+            margin-top: ;
+            margin-bottom: ;
+            margin-left: ;
+        padding: ;
+        font-size: ;
+        color: ;
+        font-family: ;
+        width: ;
+        line-height: ;
+    }
+    /*---------------------smart phones----------------------------------------------------------------*/
+    @media only screen and (max-width: 800px){
+        p{
+
+        }
+    }
+    /*---------------------------tablets----------------------------------------------------------------*/
+    @media only screen and (min-width: 800px)(max-width: 1200px){
+        p{
+            
+        }
+    }
