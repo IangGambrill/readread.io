@@ -1,5 +1,6 @@
     /* ---------------------things we can use for paragraph style----------------------------------------*/
-    body{ background-color: burlywood;background-image:  }
+    body{         background-image: url(images/custom–1@2x.jpg);
+        background-repeat: no-repeat; background-attachment: fixed; background-size: 100%; }
     p{
         margin-left:10em;
         text-indent: 6em;
@@ -31,6 +32,9 @@
       }
     p:nth-of-type(10){
         text-align: center;
+    }
+    body{
+
     }
     /*---------------------smart phones----------------------------------------------------------------*/
     @media only screen and (max-width: 800px){
